@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+       
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+
+   
+        }
+        .button {
+         background-color: #1E18CF; /* Blue */
+         width: 100%;
+        min-width: 50px;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+     }
+    .button:hover {background-color: #2BCDD3}
+      
+  }
+    </style>
+</head>
+<body>
+    <header class="header">
+       
+        <h1>Advertising in Marketing Course</h1>
+    </header>
+     <p></p>
+      <div>
+        <iframe id="ytVideo1" src="https://geo.dailymotion.com/player.html?video=k5IKEllYxK7OMTCAWMo&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:4%; top:140px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+  </iframe>
+ <br>
+   <button style="position:absolute; left:20%; top:490px;" onclick="enlargeIframe()">Enlarge Video</button>
+   </div>
+ </div>
+   <p></p>
+<div>
+  <iframe id="ytVideo2" src="https://geo.dailymotion.com/player.html?video=kCKlm6MYdOSKW2CAWMm&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:52%; top:140px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+   </iframe>
+  <br>
+   <button style="position:absolute; left:68%; top:490px;" onclick="enlargeIframe2()">Enlarge Video</button>
+</div>
+
+<div style="position:absolute;top:510px; font-family: 'Verdana', sans-serif;">
+<h4 style="font-size: 14px;">
+<p style="padding-left: 30px; padding-right: 30px;">
+Advertising strategy refer to the planned methods to promote their products or services to a target audience.
+These strategies involve selecting the right message, media channels, and timing to effectively reach and 
+influence potential customers.
+</p>
+<p style="padding-left: 30px; padding-right: 30px;">
+Digital marketing is the practice of promoting products or services using digital channels such as websites, 
+social media, search engines, email, and mobile apps. Unlike traditional marketing, digital marketing allows 
+businesses to reach a wider audience, engage with customers in real-time, and track performance through data 
+and analytics
+</p>
+</h4>
+</div>
+
+<div>
+<iframe id="ytVideo3" src="https://geo.dailymotion.com/player.html?video=k4xVRLMOb0rqKlCAWPM&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:4%; top:650px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+    </iframe>
+ <br>
+   <button style="position:absolute; left:20%; top:1000px;" onclick="enlargeIframe3()">Enlarge Video</button></div>
+</div>
+
+<div>
+<iframe id="ytVideo4" src="https://geo.dailymotion.com/player.html?video=k1mfuHPJDph7EQCAWPO&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:52%; top:650px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+    </iframe>
+<br>
+   <button style="position:absolute; left:68%; top:1000px;" onclick="enlargeIframe4()">Enlarge Video</button></div>
+</div>
+
+<p> </p>
+<div style="position:absolute;top:1050px; left:35%;">
+<button class="button" id="B10">Previous Page
+</button>
+</div>
+<div style="position:absolute;top:1050px; left:52%;">
+<button class="button" id="B20">Next Page
+</button>
+</div>
+
+</body>
+</html>
+<script>
+  document.getElementById('B10').addEventListener('click', function() {
+       window.close();
+       window.open("https://script.google.com/macros/s/AKfycbw-b0L1V6VMKYdPxzW4-d-xeGvEINX7pJ5bQqtGFl5BGFI4szuIpwzVnsr2DmXwkRQ/exec/exec?page=18301");
+           
+        });
+ document.getElementById('B20').addEventListener('click', function() {
+       window.close();
+      window.open("https://script.google.com/macros/s/AKfycbw-b0L1V6VMKYdPxzW4-d-xeGvEINX7pJ5bQqtGFl5BGFI4szuIpwzVnsr2DmXwkRQ/exec?page=18703");
+           
+        });
+  function enlargeIframe() {
+    const iframe = document.getElementById("ytVideo1");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+function enlargeIframe2() {
+    const iframe = document.getElementById("ytVideo2");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+
+function enlargeIframe3() {
+    const iframe = document.getElementById("ytVideo3");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+
+function enlargeIframe4() {
+    const iframe = document.getElementById("ytVideo4");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+</script>

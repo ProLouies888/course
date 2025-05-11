@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+       
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+
+   
+        }
+        .button {
+         background-color: #1E18CF; /* Blue */
+         width: 100%;
+        min-width: 50px;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+     }
+   .button:hover {background-color: #2BCDD3}
+      
+  }
+    </style>
+</head>
+<body>
+    <header class="header">
+       
+        <h1>Advertising in Marketing Course</h1>
+    </header>
+     <p></p>
+
+<div>
+        <iframe id="ytVideo1" src="https://geo.dailymotion.com/player.html?video=kZOeFGPVAUkO8ICAWYE&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:4%; top:140px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+   
+  </iframe>
+<br>
+   <button style="position:absolute; left:20%; top:490px;" onclick="enlargeIframe()">Enlarge Video</button>
+</div>
+   <p></p>
+
+
+<div>
+  <iframe id="ytVideo2" src="https://geo.dailymotion.com/player.html?video=kYSCCiqRjAMcdOCAX0O&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:52%; top:140px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+  
+  </iframe>
+<br>
+   <button style="position:absolute; left:68%; top:490px;" onclick="enlargeIframe2()">Enlarge Video</button>
+</div>
+
+<div style="position:absolute;top:520px; font-family: 'Verdana', sans-serif;">
+<h4 style="font-size: 14px;">
+<p style="padding-left: 30px; padding-right: 30px;">
+Over time, various types of advertisements have evolved to suit different media platforms and target audiences and each offers unique advantages.
+Understanding the different types of advertisements helps businesses choose the most effective strategy to reach and engage their customers.
+</p>
+<p style="padding-left: 30px; padding-right: 30px;">
+Today, businesses can leverage artificial intelligence to optimize their marketing strategies and operations. Discover how AI can support the 
+creation of effective advertisements and marketing plans.
+</p>
+</h4>
+</div>
+
+<p> </p>
+<div style="position:absolute;top:670px;left:20%;">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFEdxW62Jcyowi6j25p6eoYRO_-kqY-3k1San9QfGZG6ySTA/viewform?embedded=true" width="640" height="3128" frameborder="0" marginheight="0" marginwidth="0">
+</iframe>
+</div>
+
+<div style="position:absolute;top:3680px; left:42%;">
+<button class="button" id="B2">Home
+</button>
+</div>
+
+</body>
+</html>
+<script>
+
+  
+   document.getElementById('B2').addEventListener('click', function() {
+            window.close();
+            window.open("https://sites.google.com/view/learnlytech/home?read_current=1");
+        });
+
+  function enlargeIframe() {
+    const iframe = document.getElementById("ytVideo1");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+function enlargeIframe2() {
+    const iframe = document.getElementById("ytVideo2");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+</script>
+

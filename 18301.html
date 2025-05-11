@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+       
+     
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+
+   
+        }
+        .button {
+         background-color: #1E18CF; /* Blue */
+        width: 100%;
+        min-width: 50px;
+        border: none;
+        color: white;
+        cursor:pointer;
+        padding: 20px;
+        text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+      }
+     .button:hover {background-color: #2BCDD3}
+      
+  }
+    </style>
+</head>
+
+
+<body>
+    <header class="header">
+       
+        <h1>Advertising in Marketing Course</h1>
+
+    </header>
+     <p></p>
+    <div>
+        <iframe id="ytVideo1" src="https://geo.dailymotion.com/player.html?video=x9fa0yu&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:4%; top:140px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+ 
+  </iframe>
+   <br>
+   <button style="position:absolute; left:20%; top:490px;" onclick="enlargeIframe()">Enlarge Video</button>
+   </div>
+   <p></p>
+ 
+ <div> 
+ <iframe id="ytVideo2" src="https://geo.dailymotion.com/player.html?video=k5hl9kFc4eiBUkCz4fK&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:52%; top:140px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+ 
+  </iframe>
+<br>
+   <button style="position:absolute; left:68%; top:490px;" onclick="enlargeIframe2()">Enlarge Video</button>
+</div>
+<div style="position:absolute;top:510px; font-family: 'Verdana', sans-serif;">
+<h4 style="font-size: 14px; ">
+<p style="padding-left: 30px; padding-right: 30px;">
+The "Marketing Mix" refers to a set of controllable, tactical marketing tools that a company uses to produce a desired response in the target market.
+Traditionally known as the 4Ps—Product, Price, Place, and Promotion—these elements help businesses plan and execute effective marketing strategies.
+</p>
+<p style="padding-left: 30px; padding-right: 30px;">
+In marketing, creating awareness is the crucial first step in building a connection between a brand and its target audience. It involves making potential
+customers aware of a product, service, or brand through various strategies and channels. 
+</p>
+</h4>
+</div>
+
+<div>
+<iframe id="ytVideo3" src="https://geo.dailymotion.com/player.html?video=k6VIEgtuEKtV9XCQc4y&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:4%; top:640px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+  </iframe>
+ <br>
+   <button style="position:absolute; left:20%; top:990px;" onclick="enlargeIframe3()">Enlarge Video</button>
+</div>
+
+<div>
+<iframe id="ytVideo4" src="https://geo.dailymotion.com/player.html?video=k4eXrB3PmmLaPVCAWII&mute=false" 
+    style="width:42%; height:55%; position:absolute; left:52%; top:640px; overflow:hidden; border:none;"
+    allowfullscreen; 
+    title="Video Player">
+
+  </iframe>
+ <br>
+   <button style="position:absolute; left:68%; top:990px;" onclick="enlargeIframe4()">Enlarge Video</button>
+</div>
+
+<p> </p>
+<div style="position:absolute;top:1010px; font-family: 'Verdana', sans-serif;">
+<h4 style="font-size: 14px;">
+<p style="padding-left: 30px; padding-right: 30px;">
+Building brand identity is the process of creating a unique image and personality for a brand in the minds of consumers. 
+It involves defining key elements such as the brand’s name, logo, colors, messaging, and overall tone, all of which work 
+together to communicate what the brand stands for.
+</p>
+</h4>
+</div>
+
+<div style="position:absolute;top:1100px; left:36%;">
+<button class="button" id="B1">Home
+</button>
+</div>
+<div style="position:absolute;top:1100px; left:52%;">
+<button class="button" id="B2">Next Page
+</button>
+</div>
+
+</body>
+</html>
+<script>
+  
+ document.getElementById('B2').addEventListener('click', function() {
+             window.close();
+             window.open("https://script.google.com/macros/s/AKfycbw-b0L1V6VMKYdPxzW4-d-xeGvEINX7pJ5bQqtGFl5BGFI4szuIpwzVnsr2DmXwkRQ/exec?page=18502");
+        });
+document.getElementById('B1').addEventListener('click', function() {
+            window.close();
+            window.open("https://sites.google.com/view/learnlytech/home?read_current=1");
+        });
+ function enlargeIframe() {
+    const iframe = document.getElementById("ytVideo1");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+function enlargeIframe2() {
+    const iframe = document.getElementById("ytVideo2");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+
+function enlargeIframe3() {
+    const iframe = document.getElementById("ytVideo3");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+
+function enlargeIframe4() {
+    const iframe = document.getElementById("ytVideo4");
+
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+      iframe.msRequestFullscreen();
+    }
+  }
+</script>
+
